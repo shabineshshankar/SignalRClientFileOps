@@ -1,0 +1,110 @@
+#maincontainer{
+    margin: 20px;
+}
+
+#CommandCards{
+    margin-top: 20px;
+}
+
+.commandrow{
+    margin-top: 20px;
+}
+
+.fullwidth{
+    width: 100%;
+}
+
+.btn-cmd{
+    width: 100%;
+}
+
+.urltext{
+    width: 100%;
+    margin-left:-42px;
+}
+.btnconneect{
+    margin-left: -46px;
+    width: 100%;
+    height: 90%;
+}
+
+#imitatetextbox{
+        margin:4px, 4px; 
+        padding:4px; 
+        background-color: rgb(255 255 255);
+        width: 600px; 
+        height:500px; 
+        overflow-x: hidden; 
+        overflow-x: auto; 
+        text-align:justify; 
+        /* border-radius: 5%; */
+}
+.blinkred{
+    background-color:rgb(209, 0, 0) !important;  
+}
+.blinkgreen{
+    background-color:rgb(12, 146, 72) !important;  
+}
+
+.blink_me {
+    margin-top: -11px;
+    z-index: -1;
+    animation: blinker 3s linear infinite;
+    
+    
+  }
+  
+  @keyframes blinker {  
+    75% { opacity: 0.5; }
+  }
+
+
+
+  .btn-secondary {
+   
+    background-color: #4caf50 !important;
+    border-color: #4caf50 !important;
+}
+body{
+background-color:#e2e1e1 !important;
+}
+
+.card{
+    background-color: #f1f1f1 !important;
+}
+
+.urllabel{
+    font-size: unset;
+    font-weight: 500;
+}
+
+.card-header{
+    font-size: larger !important;
+    font-weight: 600 !important;
+}
+.success{
+    color:rgb(112, 255, 16)
+}
+
+.error{
+    color:rgb(235, 18, 61);
+}
+
+.messageSent{
+    color:rgb(202, 241, 176);
+}
+
+.messageReceived{
+    color:rgb(231, 160, 79);
+}
+
+.conclose{
+
+    color:rgb(252, 140, 162);
+}
+
+.custheading{
+    font-size: x-large;
+    font-family: sans-serif;
+    color: whitesmoke;
+}

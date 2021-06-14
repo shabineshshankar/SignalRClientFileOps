@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <title>File Operation Client</title>
+
+
+  </head>
+  <body>
+    
+
+<!-- Grey with black text -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
+  <span class="custheading">File Operation Client</span>
+</nav>
+<nav id="indicatornav"class="navbar navbar-expand-sm navbar-dark blink_me">
+</nav>
+    <div class=".container-fluid" id="maincontainer">
+       <div class="row">
+         <div class="col">
+            
+           
+            <div class="row">
+              <div class="col">
+
+                <div class="card" id="CommandCards">
+                  <div class="card-header">Commands</div>
+                  <div class="card-body">
+                  
+                      <div class="row commandrow">
+                        <div class="col">
+                          <label for="sel1">File Name :</label>
+                        
+                         <input type="text" maxlength="10" id="filename" name="filename">
+                        </div>
+                      </div> 
+                    
+                     <div class="row commandrow">
+                        <div class="col">
+                            <button id="btnCreateFile" type="button" class="btn btn-secondary btn-cmd">Create</button>
+                        </div>
+                        <div class="col">
+                          <button id="btnRenameFile" type="button" class="btn btn-secondary btn-cmd">Rename</button>
+                        </div>
+                        <div class="col">
+                          <button id="btnAppenedFileName" type="button" class="btn btn-secondary btn-cmd">Appened</button>
+                        </div>
+						<div class="col">
+                          <button id="btnDeleteFile" type="button" class="btn btn-secondary btn-cmd">Delete</button>
+                        </div>
+                     </div> 
+					</div>
+                </div>
+               </div>
+            </div>
+         </div>
+         <div class="col">
+          <!-- <div class="form-group">
+
+            <label for="comment">Comment:</label>
+            <textarea class="form-control" rows="20" id="comment"></textarea>
+           
+          </div> -->
+          <div id="imitatetextbox"></div>
+         </div>
+        </div>
+       
+      
+    </div>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+  
+    <script src="js/bootstrap.min.js"></script>
+      <script src="main.js"></script>
+
+  </body>
+</html>
